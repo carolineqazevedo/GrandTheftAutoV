@@ -21,7 +21,7 @@ A estrutura do projeto é composta pelos seguintes arquivos e diretórios:
 
 ## Como Utilizar
 
-Você pode acessar a página por esse [link](grand-theft-auto-v.vercel.app) ou seguir os passos a baixo:
+Você pode acessar a página por esse [link](https://grand-theft-auto-v.vercel.app/) ou seguir os passos a baixo:
 
 1. Clone o repositório para o seu ambiente local.
 2. Abra o arquivo `index.html` em um navegador web para visualizar a página web.
