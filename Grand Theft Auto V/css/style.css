@@ -1,0 +1,385 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0; 
+}
+
+#scroll {
+    background-color: black;
+    border: white 1px;
+    border-style: dashed;
+    border-radius: 5px;
+    position: fixed;
+    cursor: pointer;
+    color: #fff;
+    padding: 10px;
+    bottom: 20px;
+    right: 20px;
+}
+
+header {
+    background: url(/assets/header-background.jpg) center/auto;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 2%;
+    display: flex;
+}
+
+header button {
+    background: url(/assets/botao-compreja.svg) center/contain;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    height: 45px;
+    width: 117px;
+}
+
+
+.section1 {
+    background: url(/assets/section1.jpg) center/auto;
+    grid-template-columns: repeat(2, 0%);
+    justify-content: space-evenly;
+    justify-items: center;
+    height: 1050px;
+    display: grid;
+}
+
+.section1 button {
+    background: url(/assets/botao-compreagora.svg) center/contain;
+    font-size: larger;
+    cursor: pointer;
+    color: white;
+    height: 61px;
+    width: 285px;
+}
+
+#gtav-principal {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 160px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    right: 170px;
+}
+
+.section2 {
+    background: url(/assets/section2.jpg) center/auto;
+    align-items: center;
+    height: 924px;
+    display: flex;
+}
+
+#boas-vindas h1 {
+    font-family: system-ui;
+    padding-bottom: 14px;
+    font-size: 48px;
+    color: white;
+}
+
+#boas-vindas p {
+    text-align: justify;
+    font: menu;
+    padding-right: 0px;
+    font-size: 25px;
+    color: white;
+}
+
+#boas-vindas {
+    padding: 0px 10% 25px 10px;
+}
+
+#capa-lossantos {
+    padding-left: 10%;
+}
+
+.section3 {
+    background: url(/assets/section3.jpg) center/auto;
+    flex-direction: column;
+    align-items: center;
+    height: 1105px;
+    color: white;
+    display: flex;
+}
+
+.section3 h1 {
+    font-family: sans-serif;
+    justify-content: center;
+    position: relative;
+    font-size: 45px;
+    display: flex;
+    top: 85px;
+}
+
+.section3 button {
+    background: url(/assets/botao-selecioneaplataforma.svg) no-repeat center/cover;
+    font-size: x-large;
+    cursor: pointer;
+    color: white;
+    height: 74px;
+    width: 606px;
+    margin: 17px;
+
+}
+
+#jogueagora {
+    background: url(/assets/fundo-jogueagora.svg) no-repeat center/contain;
+    justify-content: center;
+    height: 960px;
+    width: 1336px;
+    display: flex;
+}
+
+#card-gtav, #card-gtaonline {
+    flex-direction: column;
+    font-family: system-ui;
+    align-items: center;
+    font-size: x-large;
+    padding-top: 10%;
+    display: flex;
+}
+
+#gtav-plataformas, #gtaonline-plataformas {
+    justify-content: center;
+    padding-top: 5px;
+    display: flex;
+}
+
+#gtav-plataformas img, #gtaonline-plataformas img {
+    padding:5px
+}
+
+.section4 {
+    background: url(/assets/section4.jpg) center/auto;
+    justify-content:  center;
+    flex-direction: column;
+    color: white;
+    height: 763px;
+    display: flex;
+}
+
+.section4 h1 {
+    justify-content: flex-start;
+    font-family: sans-serif;
+    padding: 0px 0px 15px 10%;
+    font-size: 40px;
+    display: flex;
+}
+
+.section4 p {
+    font-family: 'raleway';
+    width: max-content;
+    font-size: 25px;
+    padding: 15px;
+
+}
+
+#novidades {
+    background: url(/assets/fundo-novidades.svg) no-repeat center/contain;
+    grid-template-columns: repeat(3, 470px);
+    justify-items: flex-start;
+    justify-content: center;
+    height: 240px;
+    display: grid;
+}
+
+#graficos, #carregamento, #menu, #controle, #carreiras, #audio{
+    align-items: center;
+    display: flex;
+    padding: 25px;
+}
+
+.section5 {
+    background: url(/assets/section5.jpg) center/auto;
+    flex-direction: column;
+    color: white;
+    height: 1009px;
+    display: flex;
+}
+
+.section5 h1 {
+    justify-content: flex-start;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    font-size: 40px;
+    display: flex;
+}
+
+.section5 h2 {
+    font-family: system-ui;
+    font-size: xx-large;
+}
+
+.section5 p {
+    font: small-caption;
+    padding-top: 10px;
+    font-size: 16px;
+    width: 530px;
+}
+
+.section5 h2, .section5 p { 
+    flex-direction: column;
+    text-align: justify;
+    position: relative;
+    display: flex;
+    top: 45%;
+}
+
+#cards {
+    grid-template-columns: repeat(3, 33%);
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    height: auto;
+}
+
+#card-mercenaries, #card-drugwars, #card-criminal {
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: 789px;
+    width: 602px;
+}
+
+#card-mercenaries {
+    background-image: url(/assets/card-mercenaries.svg);
+}
+
+#card-drugwars {
+    background-image: url(/assets/card-lossantosdrugwars.svg);
+}
+
+#card-criminal {
+    background-image: url(/assets/card-thecriminalenterprises.svg);
+}
+
+#botao-detalhes {
+    background: url(/assets/botao-confiraosdetalhes.svg) no-repeat center/contain;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    font-size: x-large;
+    cursor: pointer;
+    color: white;
+    height: 77px;
+    width: 408px;
+    margin-top: 40px;
+}
+
+.section6 {
+    background: url(/assets/section6.jpg) center/auto;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 1020px;
+    display: flex;
+}
+
+.section6 h1 {
+    justify-content: flex-start;
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    padding-left: 10%;
+    font-size: 40px;
+    display: flex;
+}
+
+.section6 h2 {
+    font-family: 'Raleway';
+    font-size: xx-large;
+    padding-top: 15px;
+}
+
+#personagens {
+    background: url(/assets/fundo-personagens.svg) no-repeat center/contain;
+    grid-template-columns: repeat(4, 424px);
+    place-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    height: 424px;
+}
+
+.section7 {
+    background: url(/assets/section7.jpg) center/auto;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    height: 1000px;
+    display: flex;
+
+}
+
+#perguntas h1 {
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    position: relative;
+    font-size: 40px;
+}
+
+#perguntas h2 {
+    font-family: sans-serif;
+}
+
+#perguntas p {
+    font-family: 'Raleway';
+    padding-bottom: 10%;
+    font-size: larger;
+    padding-top: 2%;
+}
+
+#feedback h2 {
+    font-family: sans-serif;
+    padding-bottom: 15px;
+    position: relative;
+    font-size: 40px;
+}
+
+#feedback p {
+    font: menu;
+    font-size: large;
+}
+
+#feedback {
+    text-align: center;
+}
+
+#icones-feedback img{
+    padding: 3%;
+}
+
+#botao-feedback {
+    background: url(/assets/botao-feedback.svg) no-repeat center/contain;
+    background-color: unset;
+    position: relative;
+    font-size: x-large;
+    cursor: pointer;
+    color: white;
+    height: 71px;
+    width: 440px;
+}
+
+footer {
+    background: url(/assets/footer-background.jpg) center/auto;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    display: flex;
+    height: 100px;
+}
+
+footer p{
+    font-size: larger;
+}
+
+#icones-footer {
+    grid-template-columns: repeat(5, 60%);
+    display: inline-grid;
+    cursor: pointer;
+}
