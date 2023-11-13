@@ -18,6 +18,7 @@ A estrutura do projeto é composta pelos seguintes arquivos e diretórios:
 - `css/style.css`: O arquivo CSS para estilizar a página, incluindo o uso do Tailwind CSS.
 - `js/script.js`: O arquivo JavaScript responsável por funcionalidades interativas na página.
 - `assets/`: Pasta contendo imagens e ícones utilizados no projeto.
+- `design de prototipos/`: Pasta exclusiva para armazenar os prototipos previamente criados para melhor visualização do projeto.
 
 ## Como Utilizar
 
